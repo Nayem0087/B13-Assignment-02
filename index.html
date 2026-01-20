@@ -135,18 +135,22 @@
             </div>
         </section>
 
-        <section class="bg-[#230E3D] mt-24 pb-16 items-center hidden">
-            <h3 class="font-bold text-5xl pb-10 pt-20 text-center">Why Choose TechWave</h3>
-            <div class="flex flex-wrap max-w-[1000px] mx-auto">
-                <div class="flex">
-                    <div class="max-w-[350px] h-[405px] px-10 py-20 bg-[#2b0663] mr-4  rounded-4xl">
+        <section class="bg-[#230E3D] mt-24 pb-16 items-center">
+            <h3 class="font-bold lg:text-5xl
+            md:text-4xl text-3xl pb-10 pt-20 text-center">Why Choose TechWave</h3>
+            <div class="lg:flex max-w-[1000px] mx-auto">
+                <div class="lg:flex">
+                    <div class="lg:w-[350px] lg:h-[405px]
+                    lg:px-10 lg:py-20 
+                    px-6 py-6
+                     bg-[#2b0663] lg:mr-4 mx-5 mb-5 rounded-4xl">
                     <img src="assets/headphone.png" alt="">
                     <h5 class="text-2xl font-bold py-4">Premium Audio Quality</h5>
                     <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                 </div>
 
                 <div class="">
-                    <div class="max-w-[700] max-h-[225px] py-6 pl-6 pr-24
+                    <div class="max-w-[700] max-h-[225px] py-6 pl-6 pr-24 mx-5
                     bg-[#2b0663] rounded-4xl">
                     <img src="assets/device.png" alt="">
                     <h5 class="text-2xl font-bold py-3">Mobile Friendly</h5>
@@ -162,7 +166,7 @@
                 </div>
                 </div>
 
-                <div class="flex">
+                <div class="lg:flex">
                     <div class="max-w-[700px] max-h-[225px] px-6 py-6
                 bg-[#2b0663] mt-4 rounded-4xl">
                     <img src="assets/Exclusive.png" alt="">
@@ -178,7 +182,61 @@
                 </div>
             </div>
         </section>
-        
+
+        <section class="bg-[#230E3D] text-[#FFFFFF] mt-24 pb-16 items-center ">
+            <div class="max-w-7xl mx-auto">
+                <div class="max-w-[1000px] mx-auto 
+                grid gap-4 
+                grid-cols-1 
+                md:grid-cols-2 
+                lg:grid-cols-3">
+
+                <div class="bg-[#2a1454] rounded-4xl lg:py-24 lg:px-6 py-5 px-5 mx-5 lg:row-span-2">
+                    <img src="assets/headphone.png" alt="">
+                    <h3 class="text-2xl font-bold py-4">Premium Audio Quality</h3>
+                    <p class="">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                </div>
+                <div class="bg-[#2a1454] lg:col-span-2 rounded-4xl py-5 px-5 mx-5">
+                <img src="assets/device.png" alt="">
+                <h3 class="text-2xl font-bold py-4">Mobile Friendly</h3>
+                <p class="">Listen on the go with seamless mobile experience and offline downloads.</p>
+                </div>
+                <div class="bg-[#2a1454] lg:col-span-2 rounded-4xl py-5 px-5 mx-5">
+                <img src="assets/location.png" alt="">
+                <h3 class="text-2xl font-bold py-4">Exclusive Interviews</h3>
+                <p class="">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                </div>
+                
+
+      <!-- Exclusive Interviews -->
+      <div class="bg-[#2a1454] rounded-2xl p-6 md:col-span-2 lg:col-span-2">
+        <div class="text-3xl mb-4">⚡</div>
+        <h3 class="text-white text-xl font-semibold mb-2">
+          Exclusive Interviews
+        </h3>
+        <p class="text-gray-300 text-sm leading-relaxed">
+          Get unprecedented access to industry titans, startup founders,
+          and tech visionaries. Our host secures exclusive conversations
+          you won’t find anywhere else.
+        </p>
+      </div>
+
+      <!-- Rich Resources -->
+      <div class="bg-[#2a1454] rounded-2xl p-6">
+        <div class="text-3xl mb-4">📘</div>
+        <h3 class="text-white text-xl font-semibold mb-2">
+          Rich Resources
+        </h3>
+        <p class="text-gray-300 text-sm">
+          Access show notes, transcripts, and additional learning materials.
+        </p>
+      </div>
+
+    </div>
+  </div>
+    </section>
+
+
         <section class="">
             <h3 class="font-bold lg:text-5xl md:text-4xl text-3xl pb-10 pt-20 text-center">Featured Episodes</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 
@@ -190,7 +248,7 @@
                    <div class="ml-4 bg-[#2b0663] rounded-3xl">
                      <div class="px-2 py-4">
                         <h5 class="font-bold text-2xl pt-3 pb-3">The Future of AI in Everyday Life</h5>
-                    <p class="pb-5 pr-8 ">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                    <p class="pb-5 pr-2 ">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
                     <p class="flex items-center gap-2"><img class="h-4 w-4" src="assets/clock.png" alt="clock image">47 min</p>
                      </div>
                    </div>
@@ -202,21 +260,22 @@
                     <iframe class="w-full h-full" src="https://www.youtube.com/embed/KKNCiRWd_j0?si=87WYtr9S0XSdbv1v" title="YouTube video player" allowfullscreen></iframe>
                    <div class="ml-4 bg-[#2b0663] rounded-3xl">
                      <div class="px-2 py-4">
-                        <h5 class="font-bold text-2xl pt-5 pb-3">Building Better Habits for Remote Work</h5>
-                    <p class="pb-5 pr-8 ">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
-                    <p class="flex items-center gap-2 pb-4"><img class="h-4 w-4" src="assets/clock.png" alt="clock image">22 min</p>
+                        <h5 class="font-bold text-2xl  pt-3 pb-3">Building Better Habits for Remote Work</h5>
+                    <p class="pb-5 pr-2 ">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                    <p class="flex items-center gap-2"><img class="h-4 w-4" src="assets/clock.png" alt="clock image">22 min</p>
                      </div>
                    </div>
                     </div>
                     </div>
+
                     <div class="w-[380px] lg:w-[320px]  
                 bg-[#2b0663] rounded-3xl overflow-hidden">
                     <div class="aspect-video ">
                     <iframe class="w-full h-full" src="https://www.youtube.com/embed/bdpyQm5l78o?si=GL57LiV6nYfKiBNB" title="YouTube video player" allowfullscreen></iframe>
                    <div class="ml-4 bg-[#2b0663] rounded-3xl">
                      <div class="px-2 py-4">
-                         <h5 class="font-bold text-2xl pt-3 pb-3">Career Growth in Tech: A Roadmap</h5>
-                    <p class="pb-5 pr-8 ">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                        <h5 class="font-bold text-2xl  pt-3 pb-3">Career Growth in Tech: A Roadmap</h5>
+                    <p class="pb-5 pr-2 ">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
                     <p class="flex items-center gap-2"><img class="h-4 w-4" src="assets/clock.png" alt="clock image">43 min</p>
                      </div>
                    </div>
